@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form container">
+        <h2>Job Apllication Form</h2>
+
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter Your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone Number" required>
+
+            <label for="position">Position Applied for</label>
+            <select id="Position" name="Position">
+                <option value="developer">Software developer</option>
+                <option value="Graphic">Graphic designer</option>
+                <option value="Marketing">Marketing Specialist</option>
+            </select> 
+
+            <label for="Experience">Year of Experience</label>
+            <select id="Experience" name="Experience">
+                <option value="0-1">0-1 Year</option>
+                <option value="1-3">1-3 Year</option>
+                <option value="3-5">3-5 Year</option>
+                <option value="5-10">5-10 Year</option>
+                <option value="10+">10+ Year</option>
+
+            </select>
+
+            <label for="Resume">Upload Resume</label>
+            <input type="file" id="Resume" name="Resume">
+
+            <button type="submit">submit Application</button>
+
+        </form>
+    </div>
+</body>
+</html>
